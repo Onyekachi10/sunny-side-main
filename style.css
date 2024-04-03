@@ -734,6 +734,9 @@ div.card {
     padding: 20px 20px;
 }
 
+    h4 {
+    text-align: center;
+}
    
 section.image_footer {
     top: 20.1pc;
