@@ -1,0 +1,794 @@
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgba(62,191,255,255);
+    color: white;
+   
+}
+
+a.navbar-brand {
+    font-family: "Fraunces";
+    font-size: 30px;
+    margin-left: 1pc;
+    font-weight: bolder;
+}
+
+ul.navbar-nav {
+    font-family: "Fraunces";
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 5pc;
+    position: relative;
+    bottom: 2pc;
+}
+
+li.nav-item {
+   padding-right: 5pc;
+}
+
+a.contact {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: white;
+    color:black;
+}
+ 
+a.contact:hover {
+    background-color: rgba(62,161,255,155);
+}
+
+section.get {
+    background-color: rgba(62,191,255,255);
+    overflow-x: hidden;
+   
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Barlow";
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 3pc;
+}
+
+img.arrow {
+    position: relative;
+    left: 50%;
+    margin-bottom: 12pc;
+    
+}
+
+img.img_header {
+ position: relative;
+  top: 0%;
+  left: 25%;
+  margin-top: 20pc;
+  width: 700px;
+  
+}
+
+
+
+/* FIRST SECTION */
+
+section.grid,section.grid_2,section.grid_4 {
+    border: none;
+    background: white;
+    padding: 10pc 160px;
+    display: grid;
+    grid-template-columns: 60%;
+    font-family: "Barlow";
+    font-weight: 900;
+    height: 600px;
+}
+
+h2.head,h2.hed {
+    font-size: 35px;
+    margin-bottom: 2pc;
+    font-weight: 900;
+}
+
+p.para,p.par {
+    opacity: 60%;
+    font-size: 20px;
+}
+
+a.more {
+    text-decoration: underline hsl(51, 100%, 49%) solid;
+    text-transform: uppercase;
+    position: relative;
+    top: 3pc;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+div.image_transform {
+    background: 
+    url("./images/desktop/image-transform.jpg")no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 1.3pc;
+    width: 107%;
+   height: 807px;
+}
+
+/* SECOND SECTION */
+
+div.standout {
+    background: 
+    url("./images/desktop/image-stand-out.jpg")no-repeat;
+    background-size: cover;
+    height: 807px;
+    overflow: hidden;
+}
+
+section.grid_2 {
+    width: 120%;
+    position: relative;
+    right: 1.2pc;
+}
+
+/* THIRD SECTION */
+
+section.grid_3 {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    top: 27pc;
+    font-family: "Fraunces";
+    
+}
+div.graphic {
+   background: 
+   url("./images/desktop/image-graphic-design.jpg")no-repeat;
+   background-size: cover;
+   
+   height: 600px;
+}
+
+div.graph {
+    background: 
+    url("./images/desktop/image-photography.jpg")no-repeat;
+    background-size: cover;
+    width: 105%;
+   height: 600px;
+   position: relative;
+   right: 18px;
+}
+
+h3 {
+    margin-bottom: 1pc;
+    color: hsl(167, 40%, 24%);
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+p.gra {
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+    font-size: 20px;
+}
+
+.pho {
+    color: hsl(198, 62%, 26%);
+}
+
+
+/* TESTIMONIAL SECTION */
+
+section.grid_4 {
+    display: grid;
+    justify-content: center;
+    border: none;
+    grid-template-columns: 100%;
+}
+
+div.card {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 40px;
+    opacity: 60%;
+    margin-bottom: 5pc;
+}
+
+
+
+/* PHOTO FOOTER SECTION */
+
+section.image_footer {
+   display: flex;
+   position: relative;
+   top: 5.3pc;
+   left: 1pc;
+}
+
+div.milk {
+    background: 
+    url("./images/desktop/image-gallery-milkbottles.jpg")no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+}
+
+div.angle {
+    background: 
+    url("./images/desktop/image-gallery-orange.jpg")no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+}
+
+div.cone {
+    background: 
+    url("./images/desktop/image-gallery-cone.jpg")no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+}
+
+div.sugar {
+    background: 
+    url("./images/desktop/image-gallery-sugarcubes.jpg")no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+}
+
+/* FOOTER SECTION */
+footer {
+    border: none;
+    width: 110%;
+    font-family: "Barlow";
+    background: hsl(168, 41%, 50%);
+    clear: both;
+    height: 270px;
+}
+
+
+a.footer-brand {
+    text-decoration: none;   
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: hsl(167, 40%, 24%);
+    position: relative;
+    top: 2pc;
+}
+
+ul.footer_nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a.footer-link {
+    text-decoration: none;
+    margin-right: 3pc;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(167, 40%, 24%);
+    position: relative;
+    top: 4pc;
+    opacity: 50%;
+}
+
+
+/* SOCIAL MEDIA SECTION */
+
+
+    div.social_media {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 6pc;
+    }
+i.fa-brands.fa-square-facebook.fa-xs {
+    display: block;
+    background: url("./images/icon-facebook.svg")no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 20px;
+    padding-right: 2pc;
+}
+
+i.fa-brands.fa-instagram.fa-xs {
+    display: block;
+    background: url("./images/icon-instagram.svg")no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 20px;
+    padding-right: 2pc; 
+}
+
+i.fa-brands.fa-x-twitter.fa-xs {
+    display: block;
+    background: url("./images/icon-twitter.svg")no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 20px;
+    padding-right: 2pc; 
+}
+
+i.fa-brands.fa-pinterest-p.fa-xs {
+    display: block;
+    background: url("./images/icon-pinterest.svg")no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 20px;
+    padding-right: 2pc;
+}
+
+
+
+
+
+
+/* MEDIA QUERY SECTION */
+
+/* LAPTOP SCREEN */
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    li.nav-item {
+        padding-right: 50px;
+    }
+    
+    
+    img.img_header {
+         left: 10%;
+       }
+       
+    
+    section.grid,section.grid_2,section.grid_4 {
+        padding: 10pc 40px;
+    }
+    
+
+    div.image_transform {
+        background: 
+        url("./images/desktop/image-transform.jpg")no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        right: 1.3pc;
+        width: 107%;
+       height: 800px;
+    }
+    
+    /* SECOND SECTION */
+    
+    div.standout {
+        background: 
+        url("./images/desktop/image-stand-out.jpg")no-repeat;
+        background-size: cover;
+        height: 800px;
+        overflow: hidden;
+    }
+
+    /* THIRD SECTION */
+    
+    section.grid_3 {
+        grid-template-columns: 80%;
+        top: 25pc;   
+    }
+
+    /* FOOTER PICTURE */
+    section.image_footer {
+        top: 18.1pc;
+     }
+
+     
+}
+
+
+
+/* TABLET SCREEN */
+
+@media screen and (max-width:769px) and (min-width:600px) {
+    
+    nav {
+        width: 107%;
+    }
+
+    section.get {
+        width: 107%;
+    }
+
+    div.menu_btn {
+        background: url("./images/icon-hamburger.svg")no-repeat;
+        background-size: contain;
+        width: 10%;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+        left: 45pc;
+        bottom: 2pc;
+        transition: ease-in 2s;
+    }
+
+
+    ul.navbar-nav {
+       display: none; 
+    }
+
+    ul.navbar-nav_active {
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        background-color: white;
+        margin: 0 auto;
+        padding: 10px 40px;
+        width: 300px;
+        color: black; 
+        transition: ease-in-out 2s;
+    }
+
+    a.contact {
+        font-weight: 700;
+        background: yellow;
+    }
+     
+ 
+li.nav-item {
+    padding-right: 0;
+ }
+
+
+ img.img_header {
+     left: -2%; 
+   }
+   
+   div.image_transform {
+    background: 
+    url("./images/desktop/image-transform.jpg")no-repeat;
+    background-size: cover;
+    width: 114%;
+    height: 600px;
+}
+
+/* SECOND SECTION */
+
+div.standout {
+    background: 
+    url("./images/desktop/image-stand-out.jpg")no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+section.grid,section.grid_2{
+    padding: 10pc 30px;
+    grid-template-columns: 93%;
+}
+
+h2.head,h2.hed {
+    font-size: 30px;
+    margin-bottom: 1pc;
+    font-weight: 900;
+}
+
+p.para {
+    opacity: 60%;
+    font-size: 20px;
+}
+
+a.more {
+    top: 1pc;
+    font-size: 20px;
+}
+
+   section.grid_3 {
+    grid-template-columns: 80%;
+     top: 15pc; 
+}
+div.graphic {
+   background-size: 550px;
+   width: 110%; 
+}
+
+div.graph {
+background-size: 550px;
+ width: 108%;
+right: 6px;
+}
+
+section.grid_4 {
+    grid-template-columns: 150%;
+    position: relative;
+    bottom: 9pc;
+}
+
+
+div.card {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+/* PHOTO FOOTER SECTION */
+
+section.image_footer {
+    display: flex;
+    position: relative;
+    top: 23pc
+ }
+
+ 
+
+}
+
+
+@media screen and (max-width:600px) and (min-width:450px) {
+    div.menu_btn {
+        background: url("./images/icon-hamburger.svg")no-repeat;
+        background-size: contain;
+        width: 10%;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+        left: 35pc;
+        bottom: 2pc;
+        transition: ease-in 2s;
+    }
+
+    
+    ul.navbar-nav {
+        display: none; 
+     }
+ 
+     ul.navbar-nav_active {
+         display: grid;
+         place-items: center;
+         justify-content: center;
+         background-color: white;
+         margin: 0 auto;
+         padding: 10px 40px;
+         width: 300px;
+         color: black; 
+         transition: ease-in-out 2s;
+     }
+ 
+     a.contact {
+         font-weight: 700;
+         background: yellow;
+         
+     }
+      
+  
+ li.nav-item {
+     padding-right: 0;
+  }
+ 
+  img.img_header {
+    left: -10%;
+  }
+
+
+    img.arrow {
+        left: 44%;
+        margin-bottom: -25pc;
+    }
+  
+    section.grid_3 {
+         top: 14pc; 
+    }
+
+    section.image_footer {
+        top: 40.1pc;
+     }
+
+   footer {
+      position: relative;
+      top: 20pc;
+   }
+
+}
+
+
+
+@media screen and (max-width:450px)  and (min-width:280px) {
+    div.menu_btn {
+        background: url("./images/icon-hamburger.svg")no-repeat;
+        background-size: contain;
+        width: 10%;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+        left: 20pc;
+        bottom: 2pc;
+        transition: ease-in 2s;
+    }
+
+     
+    ul.navbar-nav {
+        display: none; 
+     }
+ 
+     ul.navbar-nav_active {
+         display: grid;
+         place-items: center;
+         justify-content: center;
+         background-color: white;
+         margin: 0 auto;
+         padding: 10px 40px;
+         width: 300px;
+         color: black; 
+         transition: ease-in-out 2s;
+         position: relative;
+         top: 1pc;
+     }
+ 
+     a.contact {
+         font-weight: 700;
+         background: yellow;
+         
+     }
+      
+  
+ li.nav-item {
+     padding-right: 0;
+  }
+
+  img.img_header {
+    left: -38%;
+  }
+
+
+    img.arrow {
+        left: 44%;
+        margin-bottom: -25pc;
+    }
+
+    div.image_transform {
+        background: 
+        url("./images/mobile/image-transform.jpg")no-repeat;
+        width: 440px;
+    position: relative;
+    bottom: 100pc;
+    }
+    
+    /* SECOND SECTION */
+    
+    div.standout {
+        background: 
+        url("./images/mobile/image-stand-out.jpg")no-repeat;
+        width: 412px; 
+        position: relative; 
+        bottom: 70pc;
+    }
+    
+    
+    section.grid{
+        padding: 50pc 30px;
+        grid-template-columns: 80%;
+    }
+
+    section.grid_2 {
+        padding: 10pc 30px;
+        grid-template-columns: 80%;
+        position: relative;
+        bottom: 97pc;
+    }
+    
+    section.grid_3 {
+        grid-template-columns: 80%;
+         top: 23pc; 
+    }
+    div.graphic {
+       background-size: cover;
+       width: 420px;
+       background-position: center;
+    }
+    
+    div.graph {
+    background-size: cover;
+    width: 450px;
+    background-position: center;
+  
+    }
+
+    div.lift {
+        position: relative;
+        bottom: 97pc;
+    }
+
+
+    
+
+/* TESTIMONIAL SECTION */
+
+section.grid_4 {
+    grid-template-columns: 300%;
+    position: relative;
+    bottom: 81pc;
+}
+
+div.card {
+    padding: 20px 20px;
+}
+
+   
+section.image_footer {
+    top: 20.1pc;
+    display: grid;
+    grid-template-columns: 90px 90px;
+ }
+
+ 
+div.milk {
+    background: 
+    url("./images/mobile/image-gallery-milkbottles.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    position: relative;
+    right: 1pc;
+}
+
+div.angle {
+    background: 
+    url("./images/desktop/image-gallery-orange.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    position: relative;
+    left: 6pc;
+    
+}
+
+div.cone {
+    background: 
+    url("./images/mobile/image-gallery-cone.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    position: relative;
+    right: 1pc;
+}
+
+div.sugar {
+    background: 
+    url("./images/desktop/image-gallery-sugarcubes.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 220px;
+    position: relative;
+    left: 6pc;
+    
+    
+}
+
+
+footer {
+  position: relative;
+  top: 20pc;
+}
+
+}
